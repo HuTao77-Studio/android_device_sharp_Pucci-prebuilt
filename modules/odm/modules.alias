@@ -1,0 +1,7 @@
+# Aliases extracted from modules themselves.
+alias of:N*T*Cfpc,fpc1020C* fpc1020_platform_tee
+alias of:N*T*Cfpc,fpc1020 fpc1020_platform_tee
+alias i2c:shtps_rmi shtps
+alias of:N*T*Csharp,flipC* shhall
+alias of:N*T*Csharp,flip shhall
+alias platform:snfc_en snfc_en

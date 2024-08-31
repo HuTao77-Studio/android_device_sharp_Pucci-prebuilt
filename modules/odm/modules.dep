@@ -1,0 +1,11 @@
+/odm/lib/modules/shbatt_kerl.ko: /odm/lib/modules/shpwr_log.ko
+/odm/lib/modules/shpwr_log.ko:
+/odm/lib/modules/fpc1020_platform_tee.ko:
+/odm/lib/modules/shexfat.ko:
+/odm/lib/modules/proximity_checker.ko:
+/odm/lib/modules/shtps.ko: /odm/lib/modules/proximity_checker.ko /odm/lib/modules/shhall.ko
+/odm/lib/modules/cxd224x-i2c.ko:
+/odm/lib/modules/ml630q790_lib.ko: /odm/lib/modules/shtps.ko /odm/lib/modules/proximity_checker.ko /odm/lib/modules/shhall.ko
+/odm/lib/modules/shhall.ko:
+/odm/lib/modules/snfc_en.ko: /odm/lib/modules/cxd224x-i2c.ko
+/odm/lib/modules/sh_wlan_factory.ko:
